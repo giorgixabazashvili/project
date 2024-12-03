@@ -1,0 +1,466 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+}
+
+header{
+    opacity: 3px;
+    width: 100%;
+    height: 5rem;
+    background-color: rgba(23, 23, 23, 1);
+    backdrop-filter: blur(10px);
+    opacity: 90%;
+}
+.mainPhoto{
+    width: 100%;
+   margin-top: -4.6rem;
+}
+.p-0{
+    display: flex;
+    gap: 1.5rem;
+    margin-left: 0.3rem;
+   
+    
+    align-items: center;
+}
+.links{
+    
+     padding-top: 1.75rem;  
+    text-decoration: none;
+    color: white;
+   
+
+} 
+.toggle{
+    position: absolute; 
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 15px;
+}
+.bar{
+    height: 3px;
+    width: 65px;
+    background-color: white;
+    border-radius: 10px;
+
+}
+.bar-1{
+    height: 3px;
+    margin-left: 1.88rem;
+    width: 35px;
+    background-color: white;
+    border-radius: 10px;
+
+}
+.title{
+    display: flex;
+    justify-content: center;
+    padding-left: 5rem;
+    margin-top: 1.70rem;
+    padding-right: 2.2rem;
+    align-items: center;
+    color: white;
+    font-family: initial;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: -9rem;
+  font-family: sans-serif;
+   font-weight: 400;
+   
+}
+.layoute{
+    margin-left: 1rem;
+     padding-top: 10.5rem;  
+    
+    
+   
+}
+
+.parent{
+    display: flex;
+    gap: 2.5rem;
+}
+.card-1{
+    width: 18.1rem;
+    height: 22.75rem;
+    border-radius: 10px;
+    background-image: url("./images/3Q6A4818\ 3.png");
+}
+
+.more{
+    width: 18.1rem;
+    height: 8.8rem;
+    background-color: rgba(143, 176, 174, 1) ;
+   opacity: 80%;
+  
+    border-radius: 10px;
+    border: 1px;
+    margin-top: 14rem;
+    justify-content: center;
+}
+.bottom{
+    opacity: 100%;
+    text-align: center;
+    color: whitesmoke;
+    padding-top: 1.5rem;
+    font-family: serif;
+
+}
+.all{
+    color: white;
+    margin-left: 2.4rem;
+    margin-top: 2rem;
+}
+.bt-0{
+   padding: 7px 23px 7px 23px;
+   border: solid 1px rgba(255, 255, 255, 1);
+   border-radius: 10px;
+   background-color: rgba(143, 176, 174, 1) ;
+   color: white;
+   font-weight: 700;
+   
+}
+.card-2{
+    width: 18.1rem;
+    height: 22.75rem;
+    border-radius: 10px;
+    background-image: url("./images//3Q6A4652\ 1.png");
+
+}
+/* rgba(205, 140, 96, 1) */
+/* 40 */
+.more-1{
+    width: 18.1rem;
+    height: 8.8rem;
+   opacity: 80%;
+  background-color: rgba(205, 140, 96, 1);
+    border-radius: 10px;
+    border: 1px;
+   
+    justify-content: center;
+
+
+}
+.bt-1{
+    padding: 7px 23px 7px 23px;
+    border: solid 1px rgba(255, 255, 255, 1);
+    border-radius: 10px;
+   background-color: rgba(170, 113, 75, 1);
+    color: white;
+    font-weight: 700;
+
+}
+.card-3{
+    width: 18.1rem;
+    height: 22.75rem;
+    border-radius: 10px;
+   background-image: url("./images/3Q6A4929\ 1.png");
+
+
+}
+.more-2{
+    width: 18.1rem;
+    height: 8.8rem;
+   opacity: 80%;
+   margin-top: 14rem;
+   background-color: rgba(60, 81, 90, 1);
+    border-radius: 10px;
+    border: 1px;
+    justify-content: center;
+}
+.bt-2{
+    padding: 7px 23px 7px 23px;
+    border: solid 1px rgba(255, 255, 255, 1);
+    border-radius: 10px;
+    background-color: rgba(60, 81, 90, 1);
+    color: white;
+    font-weight: 700;
+
+}
+.card-4{
+    width: 18.1rem;
+    height: 22.75rem;
+    border-radius: 10px;
+   /* background-image: url("./images/3Q6A4929\ 1.png"); */
+   background-image: url("./images/3Q6A5993\ 1.png");
+
+}
+.more-3{
+    width: 18.1rem;
+    height: 8.8rem;
+    /* background-color: rgba(143, 176, 174, 1) ; */
+    background-color: rgba(58, 94, 35, 1);
+   opacity: 80%;
+  
+    border-radius: 10px;
+    border: 1px;
+    
+    justify-content: center;
+
+}
+.bt-3{
+    padding: 7px 23px 7px 23px;
+    border: solid 1px rgba(255, 255, 255, 1);
+    border-radius: 10px;
+    background-color: rgba(58, 94, 35, 1);
+    font-weight: 700;
+    color: white;
+
+}
+.parent-1{
+    display: flex;
+    padding-top: 2.5rem;
+    gap: 2.5rem;
+}
+.card-5{
+    width: 18.1rem;
+    height: 22.75rem;
+    border-radius: 10px;
+  background-image: url("./images/3Q6A4313\ 1.png");
+
+}
+.more-4{
+    width: 18.1rem;
+    height: 8.8rem;
+    background-color: rgba(206, 142, 125, 1);
+   opacity: 80%;
+    
+    border-radius: 10px;
+    border: 1px;
+    margin-top: 14rem;
+    
+    justify-content: center;
+
+}
+.bt-4{
+    padding: 7px 23px 7px 23px;
+    border: solid 1px rgba(255, 255, 255, 1);
+    border-radius: 10px;
+    background-color: rgba(206, 142, 125, 1);
+    font-weight: 700;
+    color: white;
+
+}
+.card-6{
+    width: 18.1rem;
+    height: 22.75rem;
+    border-radius: 10px;
+    background-image: url("./images/3Q6A4758\ 2.png");
+
+}
+.more-5{
+    width: 18.1rem;
+    height: 8.8rem;
+    background-color: rgba(112, 81, 64, 1);
+   opacity: 80%;
+    
+    border-radius: 10px;
+    border: 1px;
+    
+    
+    justify-content: center;
+
+}
+.bt-5{
+    padding: 7px 23px 7px 23px;
+    border: solid 1px rgba(255, 255, 255, 1);
+    border-radius: 10px;
+    background-color: rgba(112, 81, 64, 1);
+    font-weight: 700;
+    color: white;
+
+}
+.different{
+    opacity: 100%;
+    text-align: center;
+    color: whitesmoke;
+    padding-top: 0rem;
+    font-family: serif;
+    
+}
+/* rgba(222, 159, 94, 1) */
+.card-7{
+    width: 18.1rem;
+    height: 22.75rem;
+    border-radius: 10px;
+    background-image: url("./images/3Q6A4812\ 1.png");
+
+}
+.more-6{
+    width: 18.1rem;
+    height: 8.8rem;
+    background-color:rgba(222, 159, 94, 1)  ;
+   opacity: 80%;
+    
+    border-radius: 10px;
+    border: 1px;
+    margin-top: 14rem;
+    
+    justify-content: center;
+
+}
+.bt-6{
+    background-color: rgba(222, 159, 94, 1);
+    padding: 7px 23px 7px 23px;
+    border: solid 1px rgba(255, 255, 255, 1);
+    border-radius: 10px;
+    font-weight: 700;
+    color: white;
+
+}
+.card-8{
+    width: 18.1rem;
+    height: 22.75rem;
+    border-radius: 10px;
+    background-image: url("./images/3Q6A4407\ 1.png");
+
+}
+.more-7{
+    width: 18.1rem;
+    height: 8.8rem;
+    background-color:rgba(198, 219, 217, 1)  ;
+   opacity: 80%;
+    
+    border-radius: 10px;
+    border: 1px;
+    
+    justify-content: center;
+
+}
+.bt-7{
+    background-color: rgba(198, 219, 217, 1);
+    padding: 7px 23px 7px 23px;
+    border: solid 1px rgba(255, 255, 255, 1);
+    border-radius: 10px;
+    font-weight: 700;
+    color: white;
+
+}
+footer{
+    background-image: url("./images/3Q6A5001\ 1.png");
+    height: 16.6rem; 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    position: relative;
+    display: block;
+    margin-top: 5rem;
+   
+    
+}
+.cmb{
+    display: block;
+    margin: 0 auto;
+    border: solid 1px  #FFFFFF;
+    color: #FFFFFF;
+    border-radius: 10px;
+    width: 7rem;
+    height: 2rem;
+    font-family: inherit;
+    font-weight: 600;
+    margin-top: 1.9rem;
+    padding: 3px 2px 3px 20px;
+    background: none;
+    
+    
+   
+}
+.select-div{
+   padding-top: 1.5rem;
+    text-align: center;
+    width: auto;
+    height: 50px;
+
+}
+.icons-parent{
+    height: 1rem;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    gap: 1.5rem;
+
+    p{
+        margin-left: 1.4rem;
+        color: white;
+
+    }
+    h4{
+        margin-left: -3.5rem;
+        color: white;
+        font-family: serif; 
+        font-weight: inherit;
+    }
+
+  
+}
+.icons{
+
+    margin-top: 0.5rem;
+    
+}
+
+.icons-1{
+    height: 3.3rem;
+    width: 3.3rem;
+}
+option{
+    background-color: black;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+.p-4{
+    width:6;
+}
+.pr{
+    margin-top: 0.3rem;
+}
+
+.icons-2{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    gap: 1rem;
+}
+
+
+.footer-loyoute{
+  padding-left: 1rem;
+  padding-right: 1rem;
+   
+    
+
+}
+.name{
+    display: block;
+    margin-left: 1rem;
+    h4{
+        padding-left: 5rem;
+        padding-bottom: 0.5rem;
+    }
+   
+}
+
+.codeart{
+    color: white;
+    font-weight: 700;
+    margin-left: 1rem;
+}
+.logo{
+    font-family: Arial,  sans-serif;
+    font-size: 38px;
+    font-weight: bold;
+    color: white;
+    margin-top: -0.5rem;
+}
+
